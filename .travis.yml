@@ -4,6 +4,7 @@ python:
 install:
     - pip install flask
     - pip install deeppavlov
+    - pip install flask_ngrok
     - wget https://github.com/deepmipt/DeepPavlov/blob/0.5.0/deeppavlov/configs/squad/squad_bert.json
     - wget https://github.com/deepmipt/DeepPavlov/blob/0.5.0/deeppavlov/configs/squad/squad.json
     - python -m deeppavlov install squad_bert
