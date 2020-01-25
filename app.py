@@ -1,5 +1,5 @@
 from flask_ngrok import run_with_ngrok
-from flask import Flask
+#from flask import Flask
 
 from deeppavlov import build_model, configs
 model_qa_ml = build_model(configs.squad.squad_bert_multilingual_freezed_emb, download=True)  
